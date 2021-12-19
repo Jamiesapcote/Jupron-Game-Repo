@@ -17,6 +17,7 @@ public class ThirdPersonMovment : MonoBehaviour
         if (direction.magnitude >= 0.1f)
         {
             controller.Move(direction * speed * Time.deltaTime);
+
         }
     }
 }
