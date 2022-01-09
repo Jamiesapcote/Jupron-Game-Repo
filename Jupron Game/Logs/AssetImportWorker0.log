@@ -15,11 +15,11 @@ C:/Users/1883120/Jupron Game Repo/Jupron-Game-Repo/Jupron Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49533
+58847
 Successfully changed project path to: C:/Users/1883120/Jupron Game Repo/Jupron-Game-Repo/Jupron Game
 C:/Users/1883120/Jupron Game Repo/Jupron-Game-Repo/Jupron Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 111.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.9f1 (7a790e367ab3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002528 seconds.
+Registered in 0.002054 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 106.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.353 seconds
+- Completed reload, in  1.348 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1353ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (1348ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (542ms)
-			LoadAssemblies (66ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (197ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (260ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013492 seconds.
+Registered in 0.012866 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\1883120\Jupron Game Repo\Jupron-Game-Repo\Jupron Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\1883120\Jupron Game Repo\Jupron-Game-Repo\Jupron Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.326 seconds
+- Completed reload, in  1.310 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1326ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (1310ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1082ms)
-			LoadAssemblies (112ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (403ms)
+			SetupTypeCache (398ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (398ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (291ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (282ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.1 MB.
-System memory in use after: 127.3 MB.
+Unloading 3249 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.3 MB.
+System memory in use after: 127.5 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3698.
-Total: 2.855800 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.162300 ms MarkObjects: 2.309400 ms  DeleteObjects: 0.087300 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3704.
+Total: 2.603700 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.160700 ms MarkObjects: 2.095500 ms  DeleteObjects: 0.092900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,37 +133,169 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design3/Temperate_Design3.obj
-  artifactKey: Guid(6137f9d2a6430f34d98caf73c8d773c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design3/Temperate_Design3.obj using Guid(6137f9d2a6430f34d98caf73c8d773c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1494e654dd7282b3a304772a1b1643c9') in 0.177322 seconds 
+  path: Assets/#OnePotatoKingdom_FULL/Bonus_Assets
+  artifactKey: Guid(7b9bcc00eef054142908d08c462a1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Bonus_Assets using Guid(7b9bcc00eef054142908d08c462a1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b1208939904a8d70d40eb6b79b32b5') in 0.011258 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design3/Temperate_Design3.fbx
-  artifactKey: Guid(11b8da2e06a9e7749afa360adc0dd738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design3/Temperate_Design3.fbx using Guid(11b8da2e06a9e7749afa360adc0dd738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7673794469889424ea39184e553465') in 0.034219 seconds 
+  Time since last request: 0.000179 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Materials
+  artifactKey: Guid(4bd5a3002534c3b45864b66bec7178f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Materials using Guid(4bd5a3002534c3b45864b66bec7178f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441d92b5ac58b6ba9d0a95458c2d336d') in 0.002308 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.040014 seconds.
-  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design1
-  artifactKey: Guid(af755de130aedd84494c59cd4b33af5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design1 using Guid(af755de130aedd84494c59cd4b33af5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7935dea03b1bd2f4361ce26a4387ebd9') in 0.004828 seconds 
+  Time since last request: 1.743642 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Materials/Materials
+  artifactKey: Guid(ae662f37b7d46e54789113a42df5d136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Materials/Materials using Guid(ae662f37b7d46e54789113a42df5d136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae68982939d6db8a6dc3c293ddfd5338') in 0.003434 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design1/Frozen_Design1.obj
-  artifactKey: Guid(5514e386b5e72d7408cf7af560f906d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design1/Frozen_Design1.obj using Guid(5514e386b5e72d7408cf7af560f906d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3243b87230a6a0903fbee752df49708') in 0.035524 seconds 
+  Time since last request: 2.110869 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien
+  artifactKey: Guid(acc8dec5b70a14b49b47cfc397cad6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien using Guid(acc8dec5b70a14b49b47cfc397cad6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b4ff04094c2f368e2b66351804c5c5') in 0.010842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design1/Frozen_Design1.fbx
-  artifactKey: Guid(c45a4a3699678c84bae742da237acac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design1/Frozen_Design1.fbx using Guid(c45a4a3699678c84bae742da237acac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff10b56fbc87140eb5f992bca5c5eb3') in 0.023101 seconds 
+  Time since last request: 1.129479 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien/Alien_Designs1
+  artifactKey: Guid(029dcbed22c030446a65846bd7f51067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien/Alien_Designs1 using Guid(029dcbed22c030446a65846bd7f51067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14fe94a230739f6a34e7734d8017a8f') in 0.017023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036095 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien/Alien_Designs1/Base_Alien.mat
+  artifactKey: Guid(60235d40f2bb00042b69cbf5bdf3dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien/Alien_Designs1/Base_Alien.mat using Guid(60235d40f2bb00042b69cbf5bdf3dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa64e228325c86b4082a56f0635a6de4') in 0.171010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien/Alien_Designs1/Ocean_Alien.mat
+  artifactKey: Guid(0f1cacc11a55bc647b6199e0abacf87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien/Alien_Designs1/Ocean_Alien.mat using Guid(0f1cacc11a55bc647b6199e0abacf87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606af8750b92d72d2dfef77f7b3ce644') in 0.024654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien/Alien_Designs1/Mountain_Alien.mat
+  artifactKey: Guid(04ce7cb5dcbf3bb42bd60eeade0ee6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Materials/Materials/Alien/Alien_Designs1/Mountain_Alien.mat using Guid(04ce7cb5dcbf3bb42bd60eeade0ee6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b6baa5d5d3889a86de843899ede41d') in 0.028391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.369667 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models
+  artifactKey: Guid(0829b5a76decdba48ba863551dbd031e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models using Guid(0829b5a76decdba48ba863551dbd031e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45eb2541fd7d296c8437e3d07d8e7cd9') in 0.010718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.778272 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets
+  artifactKey: Guid(bfc0006bfd1ae414899f35600a4ffba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets using Guid(bfc0006bfd1ae414899f35600a4ffba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee80c475a2c0168dcdaec29099b3882') in 0.009691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.805197 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Desert
+  artifactKey: Guid(c9c3383c9cd294f4e839d66b6cbae5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Desert using Guid(c9c3383c9cd294f4e839d66b6cbae5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e23966563364ad7523fa6ec0fa6250d') in 0.011473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.714847 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Desert/Desert_Design2
+  artifactKey: Guid(f369f7801d7afd0428348e51a55547dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Desert/Desert_Design2 using Guid(f369f7801d7afd0428348e51a55547dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448b780ede8f869aa43e494cb8c18fc3') in 0.016086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059296 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Desert/Desert_Design2/Desert_Design2.fbx
+  artifactKey: Guid(571de780353b9a246a7853150ba97f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Desert/Desert_Design2/Desert_Design2.fbx using Guid(571de780353b9a246a7853150ba97f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea223ca09336103b0ce6c4445c937c1') in 0.140603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Desert/Desert_Design2/Desert_Design2.obj
+  artifactKey: Guid(842bc57dd50168a4aab2807de26d373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Desert/Desert_Design2/Desert_Design2.obj using Guid(842bc57dd50168a4aab2807de26d373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fddc10dbcf44ba10c6d02c3057f924') in 0.043395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.324839 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Tundra
+  artifactKey: Guid(1eaa1fa33dc066c4f9f64e73b24d2cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Tundra using Guid(1eaa1fa33dc066c4f9f64e73b24d2cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc72fd405b4f6c31faf4fea1d3fdf9d5') in 0.010995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.920014 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Tundra/Tundra_Design3
+  artifactKey: Guid(b056672901adef84c84ccdd405411966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Tundra/Tundra_Design3 using Guid(b056672901adef84c84ccdd405411966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8265fbea4e82be9df19aecd1ea506f96') in 0.014427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017983 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Tundra/Tundra_Design3/Tundra_Design3.fbx
+  artifactKey: Guid(5bc49bf440c7b6f438104d344e0d4f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Tundra/Tundra_Design3/Tundra_Design3.fbx using Guid(5bc49bf440c7b6f438104d344e0d4f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cada6906a2b4feee451ddc54e99228') in 0.038063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Tundra/Tundra_Design3/Tundra_Design3.obj
+  artifactKey: Guid(fa23c8ced126ffd48828c2a66020a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Tundra/Tundra_Design3/Tundra_Design3.obj using Guid(fa23c8ced126ffd48828c2a66020a4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431ea73ea521752308779f06555ecf5c') in 0.041325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.203316 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen
+  artifactKey: Guid(205ce7c473370e145a5493751c5972b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen using Guid(205ce7c473370e145a5493751c5972b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad2295baf194e8b54fa886b13f701bb') in 0.012752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.734941 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design3
+  artifactKey: Guid(60a71c1eeea67f7418e6c539f23426d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design3 using Guid(60a71c1eeea67f7418e6c539f23426d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f935550184ccfc6323b307f66a495ec0') in 0.007607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.275413 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design3/Frozen_Design3.fbx
+  artifactKey: Guid(2ecb4f9988058ba4cad254a827276b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design3/Frozen_Design3.fbx using Guid(2ecb4f9988058ba4cad254a827276b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8f320c6cb4dd3530036f5445e483e8') in 0.027919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design3/Frozen_Design3.obj
+  artifactKey: Guid(ea7b905a428eae0438143ddfc6ce4fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Frozen/Frozen_Design3/Frozen_Design3.obj using Guid(ea7b905a428eae0438143ddfc6ce4fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03163ff68bb4817f98cef8c1d6f18cd0') in 0.047074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.867531 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Prefabs
+  artifactKey: Guid(702980b1ea3521a448c4a2636dbeacdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Prefabs using Guid(702980b1ea3521a448c4a2636dbeacdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17017b5e6389a74047ba9d50bee1eac6') in 0.003244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.221196 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate
+  artifactKey: Guid(37e17f14024eac24da7645b30413af94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate using Guid(37e17f14024eac24da7645b30413af94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d049ff2dc185bcc30add80291c52ae') in 0.011341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.006638 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design5
+  artifactKey: Guid(eeea4dad4b0f0c749879ba483bf2c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design5 using Guid(eeea4dad4b0f0c749879ba483bf2c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412a7b54fec96d9f1af6f9e2f92347a6') in 0.009228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design5/Temperate_Design5.fbx
+  artifactKey: Guid(d1cde6c2fe96ec041a4a689ef791c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design5/Temperate_Design5.fbx using Guid(d1cde6c2fe96ec041a4a689ef791c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2ef8de5aaac766d5df45c23c2de283') in 0.076502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design5/Temperate_Design5.obj
+  artifactKey: Guid(2cdb872c9e61c0f4aa1cccca32bbc243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Models/#Planets/Temperate/Temperate_Design5/Temperate_Design5.obj using Guid(2cdb872c9e61c0f4aa1cccca32bbc243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1663ecf3b79fe0537e4746d5263a29e') in 0.067659 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012898 seconds.
+Registered in 0.012309 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\1883120\Jupron Game Repo\Jupron-Game-Repo\Jupron Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\1883120\Jupron Game Repo\Jupron-Game-Repo\Jupron Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -171,42 +303,42 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.219 seconds
+- Completed reload, in  1.182 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1220ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1020ms)
-			LoadAssemblies (115ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (384ms)
+			SetupTypeCache (378ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (362ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.9 MB.
-System memory in use after: 127.1 MB.
+Unloading 3201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 127.3 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3744.
-Total: 2.519100 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.190500 ms MarkObjects: 1.988200 ms  DeleteObjects: 0.059700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3750.
+Total: 2.583400 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.159600 ms MarkObjects: 2.105600 ms  DeleteObjects: 0.058900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

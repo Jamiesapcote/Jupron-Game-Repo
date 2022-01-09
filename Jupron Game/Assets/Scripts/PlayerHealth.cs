@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour
     //built in unity function called when the script is created 
     //usally when the game starts 
     // this happens BEFORE the start()
-    private void Awake()
+    void Awake()
     {
         // INISUALSE or current health to the equal to our 
         //starting health at the beginning of the game 
@@ -37,7 +37,7 @@ public class PlayerHealth : MonoBehaviour
         //if our health dorops to 0, that means the player should die
         if (currentHealth == 0)
         {
-            //We called the KILL function to the player 
+            //We called the KILL function to kill the player 
             Kill();
         }
 
@@ -57,7 +57,7 @@ public class PlayerHealth : MonoBehaviour
     // the return is what will be givin back 
     public int GetHealth()
     {
+        // return will give the following info back to the calling code 
         return currentHealth;
     }
-
 }
