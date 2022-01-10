@@ -31,7 +31,7 @@ public class EnemyChase : MonoBehaviour
 
 
         // get the direction (as in enemy patrol)
-        Vector2 direction = ((Vector2)target.position - (Vector2)transform.position).normalized;
+        Vector3 direction = ((Vector3)target.position - (Vector3)transform.position).normalized;
 
         // move in the correct direction with the set force strength
         ourRigidbody.AddForce(direction * forceStrength);

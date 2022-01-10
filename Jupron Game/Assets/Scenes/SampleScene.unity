@@ -746,6 +746,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1346610894704837157, guid: 353473c1f55967d40941db470ff03994, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346610894704837158, guid: 353473c1f55967d40941db470ff03994, type: 3}
+      propertyPath: hazardDamage
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1529717560146191816, guid: 353473c1f55967d40941db470ff03994, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1615,8 +1623,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.32701474, g: 0.05006229, b: 0.4245283, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1760,7 +1768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6392dbe4a51e4d44ad7ac9cae572096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 5
+  startingHealth: 100
 --- !u!136 &713446447
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2047,7 +2055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0a69ee9556a6d04da476222c3f8e7e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceStrength: 4
+  forceStrength: 0.5
   target: {fileID: 713446445}
 --- !u!114 &952360748
 MonoBehaviour:
@@ -2100,7 +2108,7 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2608,7 +2616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: defb1eeb2b545b644a5ade075290389f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceForDecision: 0
+  distanceForDecision: 3
   target: {fileID: 713446445}
 --- !u!4 &1384205749 stripped
 Transform:
@@ -3867,6 +3875,14 @@ PrefabInstance:
     - target: {fileID: 1352850392, guid: 353473c1f55967d40941db470ff03994, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346610894704837157, guid: 353473c1f55967d40941db470ff03994, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346610894704837158, guid: 353473c1f55967d40941db470ff03994, type: 3}
+      propertyPath: hazardDamage
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1529717560146191816, guid: 353473c1f55967d40941db470ff03994, type: 3}
       propertyPath: m_RootOrder

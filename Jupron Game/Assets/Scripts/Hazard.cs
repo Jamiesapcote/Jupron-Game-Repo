@@ -12,10 +12,10 @@ public class Hazard : MonoBehaviour
     //built-in Unity function for handling collisions 
     // this function will be called when another object bumps 
     //into the one this script is attached to 
-    void OnCollisionEnter(Collision collisionData)
+    void OnTriggerEnter(Collider objectWeCollidedWith)
     {
         //get the obeject we collieder with 
-        Collider objectWeCollidedWith = collisionData.collider;
+        //Collider objectWeCollidedWith = collisionData.collider;
 
         //get the player heath script attached to that obbject (if there is one)
         PlayerHealth player = objectWeCollidedWith.GetComponent<PlayerHealth>();
