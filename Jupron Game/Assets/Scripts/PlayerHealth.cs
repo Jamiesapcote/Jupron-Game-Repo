@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     //this will be a starting health for the player 
-  //public means that it is shown in the unity and accseable from other sctrpts
+    //public means that it is shown in the unity and accseable from other sctrpts
+    public string gameOverScene;
 
     public int startingHealth;
     //this will be the players current health 
@@ -36,7 +37,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth, 0, startingHealth);
 
         //if our health dorops to 0, that means the player should die
-        if (currentHealth == 0)
+        if (currentHealth <= 0)
         {
             //We called the KILL function to kill the player 
             Kill();
@@ -50,7 +51,8 @@ public class PlayerHealth : MonoBehaviour
     public void Kill()
     {
         // this will destrtoy gameObject that this script is attached to
-        SceneManager.LoadScene("GameOverScene");
+        SceneManager.LoadScene(gameOverScene);
+
     }
 
     //getter function to give information to the calling code 

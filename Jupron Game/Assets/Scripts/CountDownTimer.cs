@@ -2,29 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CountDownTimer : MonoBehaviour
 {
-   public float currentTime = 0f;
-    public float startingtime = 10f;
+    //public varables 
+    public float timeLimit;
+    public string gameOverScene;
 
-    [SerializeField] Text countDownText;
+    private float startTime;
+     private Text timerDisplay;
 
-    private void Start()
+     void Start()
     {
-        currentTime = startingtime;
+        //get our text complant so we can edit the text each frame
+        timerDisplay = GetComponent<Text>();
+        startTime = Time.time;
     }
 
-    private void Update()
+     void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
-        countDownText.text = currentTime.ToString("0");
+        //calculate how much time has past
+        float timePassed = Time.time - startTime;
 
-        if(currentTime <= 0)
+        //Disply time since start
+        timerDisplay.text = timePassed.ToString("0.00");
+        if (timePassed >= timeLimit)
         {
-            currentTime = 0;
+            SceneManager.LoadScene(gameOverScene);
         }
-
     }
-
 }
